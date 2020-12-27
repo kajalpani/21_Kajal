@@ -12,7 +12,7 @@ package Prac2and3;
 public class Restore {
     public void restoreDB(String path)
     {
-        String executeCmd = "C:/xampp/mysql/bin/mysql -u root -psastudentdb<" + path;
+        String executeCmd = "C:/\"Program Files\"/MySQL/\"MySQL Server 8.0\"/bin/mysql -u root -proot studentdb<" + path;
         System.out.println(executeCmd);
         Process runtimeProcess;
         try {
@@ -29,6 +29,6 @@ public class Restore {
     }
     public static void main(String[]args)
     {
-        new Restore().restoreDB("C:/db.sql"); 
+        new Restore().restoreDB("F:/MSc/\"MSc Pracs\"/studentdb.sql"); 
     }
 }
