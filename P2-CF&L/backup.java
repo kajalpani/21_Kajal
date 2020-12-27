@@ -13,7 +13,7 @@ package Prac2and3;
 public class backup {
     public void backupDB(String path)
     { 
-        String executeCmd = "C:/xampp/mysql/bin/mysqldump -u root -psa -B studentdb>" + path;
+        String executeCmd = "C:/\"Program Files\"/MySQL/\"MySQL Server 8.0\"/bin/mysqldump -u root -proot -B studentdb>" + path;
         System.out.println(executeCmd);
         Process runtimeProcess;
         try {
@@ -29,6 +29,6 @@ public class backup {
     }
     public static void main(String[]args)
     {
-        new backup().backupDB("C:/db.sql");
+        new backup().backupDB("F:/MSc/\"MSc Pracs\"/studentdb.sql");
     }
 }
