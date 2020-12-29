@@ -1,3 +1,4 @@
+# Name: Kajal Panigrahi, Roll No: 22
 #Transportation Problem
 #     Customer 1    Customer 2    Customer 3    Customer 4    SUPPLY
 #1    10            2             20            11            15
