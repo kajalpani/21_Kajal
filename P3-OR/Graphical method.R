@@ -1,3 +1,4 @@
+# Name: Kajal Panigrahi, Roll No: 22
 #Max z= 4x1+5x2
 #s.t.c
 #6x1+6x2<=36
