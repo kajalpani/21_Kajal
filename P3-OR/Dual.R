@@ -1,3 +1,4 @@
+# Name: Kajal Panigrahi, Roll No: 22
 #Solve the following LPP using Dual Simplex method.
 # Max z=40x1+50x2
 # subject to
